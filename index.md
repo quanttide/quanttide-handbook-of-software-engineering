@@ -4,11 +4,11 @@
 
 ## 层级
 
-### contract/ — 软件类别定义
+### categories/ — 软件类别定义
 
 每个子目录定义一类软件的统一约定，回答「这一类软件长什么样」。
 
-第一类是 `platform`——平台契约：规定跨项目统一的技术栈与部署约定，涵盖前端 Studio、后端 Provider、CLI 管理工具三件套的语言分工（Go / Flutter / Rust）、桶命名、域名、IaC 目录（`manifests/terraform`）、质量门禁与可观测安全。
+第一类是 `platform`——量潮云平台软件：前端 Studio、后端 Provider、CLI 管理工具三件套，统一技术栈分工（Go / Flutter / Rust）、桶命名、域名、IaC 目录（`manifests/terraform`）、质量门禁与可观测安全约定。
 
 ### frameworks/ — 框架手册
 
